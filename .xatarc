@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Shourya-Agarwal-s-workspace-hmascl.eu-central-1.xata.sh/db/jsm_vidleap",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
