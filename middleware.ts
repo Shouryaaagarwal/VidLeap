@@ -3,17 +3,17 @@ import { headers } from "next/headers";
 import { auth } from "@/lib/auth";
 import aj, { createMiddleware, detectBot, shield } from "./lib/arcjet";
 
-// export async function middleware(request: NextRequest) {
-//   const session = await auth.api.getSession({
-//     headers: await headers(),
-//   });
+export async function middleware(request: NextRequest) {
+  const session = await auth.api.getSession({
+    headers: await headers(),
+  });
 
-//   if (!session) {
-//     return NextResponse.redirect(new URL("/sign-in", request.url));
-//   }
+  if (!session) {
+    return NextResponse.redirect(new URL("/sign-in", request.url));
+  }
 
-//   return NextResponse.next();
-// }
+  return NextResponse.next();
+}
 const validate = aj
   .withRule(
     shield({
