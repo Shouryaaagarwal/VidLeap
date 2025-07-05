@@ -38,15 +38,15 @@ const SignIn = () => {
             </p>
             <article>
               <Image
-                src="/assets/images/jason.png"
-                alt="Jason"
+                src="/assets/images/see4.jpg"
+                alt="Shourya"
                 width={64}
                 height={64}
                 className="rounded-full"
               />
               <div>
-                <h2>Jason Rivera</h2>
-                <p>Product Designer, NovaByte</p>
+                <h2>Shourya Agarwal</h2>
+                
               </div>
             </article>
           </section>
