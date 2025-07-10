@@ -3,10 +3,10 @@ export const MAX_THUMBNAIL_SIZE = 10 * 1024 * 1024;
 
 export const BUNNY = {
   STREAM_BASE_URL: "https://video.bunnycdn.com/library",
-  STORAGE_BASE_URL: "https://storage.bunnycdn.com/jsm-vidleap",
-  CDN_URL: "https://jsm-vid-leap.b-cdn.net",
+  STORAGE_BASE_URL: "https://storage.bunnycdn.com/jsm-vdleap",
+  CDN_URL: "https://jsm-vidleap.b-cdn.net",
   EMBED_URL: "https://iframe.mediadelivery.net/embed",
-  TRANSCRIPT_URL: "https://vz-cd931919-58c.b-cdn.net",
+  TRANSCRIPT_URL: "https://vz-86b86f5b-aea.b-cdn.net",
 };
 
 export const emojis = ["😂", "😍", "👍"];
